@@ -1,0 +1,19 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include odoo_connect *.css
+recursive-include odoo_connect *.csv
+recursive-include odoo_connect *.html
+recursive-include odoo_connect *.ico
+recursive-include odoo_connect *.js
+recursive-include odoo_connect *.json
+recursive-include odoo_connect *.md
+recursive-include odoo_connect *.png
+recursive-include odoo_connect *.py
+recursive-include odoo_connect *.svg
+recursive-include odoo_connect *.txt
+recursive-include odoo_scripts *.py
+recursive-exclude odoo_connect *.pyc
