@@ -18,5 +18,3 @@ build-backend = "flit_core.buildapi"
 
 [tool.bench]
 dev-dependencies = []
-
-[tool.bench.dev-dependencies]
