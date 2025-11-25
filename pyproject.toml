@@ -1,0 +1,22 @@
+[project]
+name = "odoo_connect"
+version = "0.0.1"
+description = "Integration between Odoo and Frappe LMS"
+authors = [
+    { name = "Antigravity", email = "bot@antigravity.com" }
+]
+dependencies = [
+    "frappe"
+]
+requires-python = ">=3.10"
+readme = "README.md"
+license = { text = "MIT" }
+
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.bench]
+dev-dependencies = []
+
+[tool.bench.dev-dependencies]
